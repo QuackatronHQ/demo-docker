@@ -32,6 +32,7 @@ ADD ./a.out /app
 # after each ``apt-get``
 
 FROM alpine
+# 
 
 RUN apk update && apk add postgresql curl
 RUN mkdir /app
